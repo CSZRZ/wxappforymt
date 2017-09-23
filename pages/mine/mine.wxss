@@ -1,0 +1,109 @@
+page {
+  background-color: rgb(243, 243, 243);
+  padding-top: 10rpx;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background: rgb(243, 243, 243);
+  box-sizing: border-box;
+  font-family: -apple-system-font, 'Helvetica Neue', Helvetica, 'Microsoft YaHei', sans-serif;
+  font-size: 16px;
+  color: dimgray;
+}
+
+.topView {
+  display: flex;
+  flex-direction: column;
+  height: 300rpx;
+  background: white;
+}
+
+.top-userinfo {
+  display: flex;
+  align-items: center;
+  height: 200rpx;
+  padding: 0rpx 40rpx;
+  border-bottom: solid 1rpx #ebebeb;
+}
+
+.userinfo-avatar {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+
+.userinfo-name {
+  flex: 1;
+  padding-left: 20rpx;
+}
+
+.userinfo-arrow {
+  width: 36rpx;
+  height: 36rpx;
+}
+.top-region {
+  display: flex;
+  flex: 1;
+  background: white;
+  align-items: center;
+  padding: 0rpx 40rpx;
+}
+
+.region-dz {
+  width: 36rpx;
+  height: 36rpx;
+  margin-right: 20rpx;
+}
+
+.region-down {
+  width: 26rpx;
+  height: 20rpx;
+}
+
+.region-select {
+  flex: 1;
+  text-align: right;
+  margin-right: 10rpx;
+}
+
+.table-list {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  margin-top: 10rpx;
+  background: rgb(243, 243, 243);
+}
+
+.table-item {
+  display: flex;
+  padding: 30rpx;
+  background: #fff;  
+  border-bottom: solid 1rpx #ebebeb;
+}
+
+ .setting-item {
+  display: flex;
+  padding: 30rpx;
+  margin-top: 10rpx;
+  border: solid 1rpx #ebebeb;
+  background: #fff; 
+}
+ .item-left-icon {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 20rpx;
+}
+
+.right-arrow {
+  width: 32rpx;
+  height: 32rpx;
+}
+
+.item-name {
+  flex: 1;
+}

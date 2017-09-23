@@ -1,0 +1,59 @@
+<!--logs.wxml-->
+<view class="container">
+  <view class='topView'>
+    <view class='top-userinfo'>
+      <image class="userinfo-avatar" src="../../image/login_icon_user.png"></image>
+      <text class='userinfo-name'>登录后可绑定机顶盒</text>
+      <image class='userinfo-arrow' src="../../image/login_icon_right.png"></image>
+    </view>
+    <view class='top-region'>
+      <image class='region-dz' src="../../image/dz.png"></image>
+      <text>当前：常熟</text>
+      <text class='region-select'>选择区域</text>
+      <image class='region-down' src="../../image/down.png"></image>
+    </view>
+
+  </view>
+  <view class='table-list'>
+    <view class='table-item'>
+      <image class='item-left-icon' src="../../image/login_icon_collect.png"></image>
+      <text class='item-name'>我的收藏</text>
+      <image class='right-arrow' src="../../image/login_icon_right.png"></image>
+    </view>
+    <view class='table-item'>
+      <image class='item-left-icon' src="../../image/login_icon_history.png"></image>
+      <text class='item-name'>观看记录</text>
+      <image class='right-arrow' src="../../image/login_icon_right.png"></image>
+    </view>
+    <view class='table-item'>
+      <image class='item-left-icon' src="../../image/login_icon_yuy.png"></image>
+      <text class='item-name'>我的预约</text>
+      <image class='right-arrow' src="../../image/login_icon_right.png"></image>
+    </view>
+    <view class='table-item'>
+      <image class='item-left-icon' src="../../image/user_help.png"></image>
+      <text class='item-name'>用户帮助</text>
+      <image class='right-arrow' src="../../image/login_icon_right.png"></image>
+    </view>
+    <view class='setting-item'>
+      <image class='item-left-icon' src="../../image/login_icon_box.png"></image>
+      <text class='item-name'>绑定机顶盒</text>
+      <image class='right-arrow' src="../../image/login_icon_right.png"></image>
+    </view>
+    <view class='table-item'>
+      <image class='item-left-icon' src="../../image/login_icon_ts.png"></image>
+      <text class='item-name'>本地投射</text>
+      <image class='right-arrow' src="../../image/login_icon_right.png"></image>
+    </view>
+    <view class='setting-item'>
+      <image class='item-left-icon' src="../../image/login_icon_ws.png"></image>
+      <text class='item-name'>内网测速</text>
+      <image class='right-arrow' src="../../image/login_icon_right.png"></image>
+    </view>
+    <view class='setting-item'>
+      <image class='item-left-icon' src="../../image/login_btn_setting.png"></image>
+      <text class='item-name'>设置</text>
+      <image class='right-arrow' src="../../image/login_icon_right.png"></image>
+    </view>
+  </view>
+</view>
