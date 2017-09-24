@@ -10,4 +10,8 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <view class="zan-btn">按钮</view>
+  <import src="/bower_components/zanui-weapp/dist/loadmore/index.wxml" />
+
+  
 </view>
