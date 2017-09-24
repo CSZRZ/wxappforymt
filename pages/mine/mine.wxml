@@ -6,12 +6,24 @@
       <text class='userinfo-name'>登录后可绑定机顶盒</text>
       <image class='userinfo-arrow' src="../../image/login_icon_right.png"></image>
     </view>
-    <view class='top-region'>
-      <image class='region-dz' src="../../image/dz.png"></image>
-      <text>当前：常熟</text>
-      <text class='region-select'>选择区域</text>
-      <image class='region-down' src="../../image/down.png"></image>
-    </view>
+    <view class='top-region' bindtap="tapName">
+       <!-- <view class="zan-form__input zan-cell__bd">  -->
+        <picker
+          mode="selector"
+          range="{{ area }}"
+          value="{{ areaIndex }}"
+          bindchange="onAreaChange"
+        >
+          <view class='picker-contain'>
+            <image class='region-dz' src="../../image/dz.png"></image>
+            <text class='area-text'>当前：{{ area[areaIndex] }}</text> 
+            <text class='region-select'>选择区域</text> 
+            <image class='region-down' src="../../image/down.png"></image> 
+          </view>
+        </picker>
+        </view>  
+      
+    <!-- </view> -->
 
   </view>
   <view class='table-list'>

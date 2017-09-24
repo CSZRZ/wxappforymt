@@ -53,22 +53,34 @@ page {
   padding: 0rpx 40rpx;
 }
 
-.region-dz {
+.top-region picker {
+  flex: 1;
+}
+
+.top-region .picker-contain {
+  display: flex;
+  align-items: center;
+}
+
+.top-region .picker-contain .area-text {
+  flex: 1; 
+}
+
+.top-region .picker-contain .region-dz {
   width: 36rpx;
   height: 36rpx;
   margin-right: 20rpx;
 }
 
-.region-down {
+ .top-region .picker-contain .region-down {
   width: 26rpx;
   height: 20rpx;
 }
 
-.region-select {
-  flex: 1;
+.top-region .picker-contain .region-select {
   text-align: right;
   margin-right: 10rpx;
-}
+} 
 
 .table-list {
   display: flex;
