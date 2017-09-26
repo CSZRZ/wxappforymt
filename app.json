@@ -1,7 +1,9 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/remote/remote",
+    "pages/mine/setting/setting"
   ],
   "window": {
     "backgroundTextStyle":"light",

@@ -1,0 +1,25 @@
+<view class="tableView">
+  <view class='version'>
+    <text class='version-text'>版本：v1.0</text>
+  </view>
+  <view class="zan-panel">
+    <view class="zan-cell zan-cell--access">
+      <view class="zan-cell__bd">清除缓存</view>
+      <view class="zan-cell__ft">最大10M</view>
+    </view>
+  </view>
+  <view class="zan-panel">
+    <view class="zan-cell zan-cell--switch">
+      <view class="zan-cell__bd">震动反馈</view>
+      <view class="zan-cell__ft">
+        <import src="/bower_components/zanui-weapp/dist/switch/index.wxml" />
+        <template is="zan-switch" data="{{ checked }}"/>
+      </view>
+    </view>
+    <view class="zan-cell zan-cell--access">
+      <view class="zan-cell__bd">好评</view>
+      <view class="zan-cell__ft"></view>
+    </view>
+  </view>
+  
+</view>

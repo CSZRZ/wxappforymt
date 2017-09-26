@@ -62,10 +62,14 @@
       <text class='item-name'>内网测速</text>
       <image class='right-arrow' src="../../image/login_icon_right.png"></image>
     </view>
-    <view class='setting-item'>
-      <image class='item-left-icon' src="../../image/login_btn_setting.png"></image>
-      <text class='item-name'>设置</text>
-      <image class='right-arrow' src="../../image/login_icon_right.png"></image>
-    </view>
+    
+    <navigator url='../mine/setting/setting'>
+      <view class='setting-item'>
+        <image class='item-left-icon' src="../../image/login_btn_setting.png"></image>
+        <text class='item-name'>设置</text>
+        <image class='right-arrow' src="../../image/login_icon_right.png"></image>
+      </view>
+    </navigator>
+    
   </view>
 </view>

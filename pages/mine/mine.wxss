@@ -95,6 +95,7 @@ page {
   display: flex;
   padding: 30rpx;
   background: #fff;  
+  align-items: center;
   border-bottom: solid 1rpx #ebebeb;
 }
 
@@ -104,6 +105,7 @@ page {
   margin-top: 10rpx;
   border: solid 1rpx #ebebeb;
   background: #fff; 
+  align-items: center;
 }
  .item-left-icon {
   width: 40rpx;
