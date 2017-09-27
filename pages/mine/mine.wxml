@@ -37,11 +37,13 @@
       <text class='item-name'>观看记录</text>
       <image class='right-arrow' src="../../image/login_icon_right.png"></image>
     </view>
-    <view class='table-item'>
-      <image class='item-left-icon' src="../../image/login_icon_yuy.png"></image>
-      <text class='item-name'>我的预约</text>
-      <image class='right-arrow' src="../../image/login_icon_right.png"></image>
-    </view>
+    <navigator url='../mine/yuyue/yuyue'>
+      <view class='table-item'>
+        <image class='item-left-icon' src="../../image/login_icon_yuy.png"></image>
+        <text class='item-name'>我的预约</text>
+        <image class='right-arrow' src="../../image/login_icon_right.png"></image>
+      </view>
+    </navigator>
     <view class='table-item'>
       <image class='item-left-icon' src="../../image/user_help.png"></image>
       <text class='item-name'>用户帮助</text>

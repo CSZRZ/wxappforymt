@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/mine/mine",
     "pages/remote/remote",
-    "pages/mine/setting/setting"
+    "pages/mine/setting/setting",
+    "pages/mine/yuyue/yuyue"
   ],
   "window": {
     "backgroundTextStyle":"light",

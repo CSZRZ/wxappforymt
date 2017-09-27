@@ -1,0 +1,18 @@
+<view class='tableView'>
+  <block wx:for="{{dataList}}" wx:key="*this">
+    <view class='tableViewCell'>
+      <image class='tableViewCell-image' src='../../../image/placeholderImage.png'></image>
+      <view class='tableViewCell-info'>
+        <view class='inof-title'>
+          <text>{{item.title}}</text>
+        </view>
+        <view class='info-subtitle'>
+          <text>{{item.subtitle}}</text>
+        </view>
+        <view class='info-time'>
+          <text>播出时间: {{item.time}}</text>
+        </view>
+      </view>
+    </view>
+  </block>
+</view>
